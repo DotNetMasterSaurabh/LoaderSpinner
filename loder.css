@@ -1,0 +1,19 @@
+    .loader{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #d3bdc6;    
+        border-top: 1px solid #99355f;
+        animation: spinerAnimation 700ms linear 0s infinite normal;    }
+
+    /* Now we have to add animation to keep
+    this circular div moving */
+
+    @keyframes spinerAnimation {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
